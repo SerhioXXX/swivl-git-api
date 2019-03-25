@@ -1,0 +1,22 @@
+.user-page {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:flex-start;
+}
+.user-page .user-img {
+ flex-shrink: 0;
+ border-radius:5px;
+ max-width: 250px;
+ height: 250px;
+ margin-right: 5px;
+}
+
+.user-page .user-info {
+  flex-basis:auto;
+  margin: 5px 5px 5px 5px;
+}
+.user-page .user-link {
+  flex-basis:auto;
+  margin: 15px 5px 35px 5px;
+}

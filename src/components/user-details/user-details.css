@@ -1,0 +1,32 @@
+.user-list {
+}
+.user-list .user-details {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.user-list .user-details .user-img{
+ flex-shrink: 0;
+ border-radius:5px;
+ max-width: 100px;
+ height: 100px;
+ margin-right: 10px;
+}
+.user-list .user-details .user-login{
+   flex-shrink: 0;
+   margin-right: 10px;
+   font-size: 1.2rem;
+}
+.user-list .user-details .user-login .user-login-text{
+   flex-shrink: 0;
+   margin-right: 10px;
+   font-size: 1.2rem;
+   font-weight:600;
+   color:#00CCBC
+}
+.user-list .user-details .user-link{
+   flex-shrink: 0;
+   margin-right: 10px;
+   font-size: 1.2rem;
+}
